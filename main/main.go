@@ -44,7 +44,7 @@ type Weather struct {
 func main() {
 	title := "Weather API:"
 	fmt.Println(title)
-	q := "Jacksonville,Fl"
+	q := "Pittsburgh,Pennsylvania"
 
 	if len(os.Args) >= 2 {
 		q = os.Args[1]
